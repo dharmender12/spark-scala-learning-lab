@@ -1,0 +1,49 @@
+Scala: 
+It is Scalable language 
+It is developed in 2011 
+It is Martin Odersky 
+Runs on JVM (Java Virtual Machine) 
+Widely used with Apache Spark for big data processing.
+
+Key Features : 
+1. Objected oriented + Functional programming 
+2. Runs on JVM 
+3. Concise and expressive syntax 
+4. Strong static typing 
+5. Supports parallel and distributing computing
+
+Variables in scala: Two types of variables 
+1. Immutable variable 
+syntax : val n = 10
+cannot be changed after creation. 
+2. Mutable variable 
+syntax:  var a = 5 (e.g.)
+It can be changed after creation.
+
+
+## Data Types in scala 
+Data type     Example 
+
+1. int       2 
+2. float    2.5f 
+	
+3. string   "Scala" 
+4. char      'A'
+5. double    10.6
+6. Boolean   true
+
+
+### Functions : 
+A function is reusable block of code designed to perform specific task. 
+**Advantages: 
+1. Code reusability 
+2. Modularity
+3. Easier debugging
+
+syntax : 
+def functionName(params):ReturnType= {
+// function body
+
+}
+
+

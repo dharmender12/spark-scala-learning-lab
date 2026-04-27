@@ -1,0 +1,33 @@
+In this first download Hadoop 2.9.1 from the official website. 
+Then download jdk any version. 
+Then download spark 3.5.8 or any latest version. 
+1. Standalone without Hadoop 
+2. with Hadoop 
+
+Go to terminal 
+untar the files by : 
+tar -zxvf folder_name/Hadoop-x.x.x.tar.gz
+tar -zxvf folder_name/jdk-x.x.x.tar.gz
+tar - zxvf folder_name/spark-x.x.x.gz
+
+then in the terminal : 
+gedit or vi ~/.bashrc or .bashrc 
+at last paste : 
+export JAVA_HOME=file_path/jdk-x.x.x (folder_path)
+export HADOOP_HOME=file_path/hadoop-x.x.x
+export SPARK_HOME=file_path/spark-x.x.x
+export PATH=$JAVA_HOME/bin:$HADOOP_HOME/bin:$SPARK_HOME/bin:$PATH
+save the bashrc file. 
+
+then on terminal write : 
+source ~/.bashrc
+it will run without error then your paths are saved. 
+
+ON terminal: 
+sudo apt-get update 
+sudo apt-get install scala
+sudo apt-get install openjdk-8-jdk
+
+run : 
+scala -version
+scala 
